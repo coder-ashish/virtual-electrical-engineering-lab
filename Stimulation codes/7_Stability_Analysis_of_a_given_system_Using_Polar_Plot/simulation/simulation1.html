@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulation 1</title>
+  <script src="../../script/simulation.js"></script>
+
+  <link rel="stylesheet" href="../../css/exp1.css" />
+  <link rel="stylesheet" href="../../css/simulation.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="box">
+    <div class="menu">
+      <a class="mainMenu" href="../../../../../index.html">
+        <div class="menuItems">Home</div>
+    </a>
+      <a class="mainMenu" href="../prelab.html">
+        <div class="menuItems">Pre-Lab Question</div>
+      </a>
+      <a class="mainMenu" href="#">
+        <div class="theory menuItems">Theory</div>
+      </a>
+      <a class="mainMenu" href="../procedure.html">
+        <div class="procedure menuItems" id="procedure">Procedure</div>
+      </a>
+      <a class="mainMenu" href="../simulation.html">
+        <div class="simulation menuItems">Simulation</div>
+      </a>
+      <a class="mainMenu" href="../postlab.html">
+        <div class="menuItems">Post-Lab Question</div>
+      </a>
+    </div>
+
+    <div class="flex-row justify-center justify-item " style="margin-top: 1.2rem">
+      <h3 style="margin-right: 2rem; color: darkblue;">You have selected this equation</h3>
+      <img src="../../image/equation1.png">
+    </div>
+
+    <div class="input-block">
+      <h2>Find the values of Gain and Phase angle for the frequencies given</h2><br>
+      <form name="form1" onsubmit="return false">
+        <table>
+          <tr>
+            <th>Frequency (rad/sec)</th>
+            <th>Gain, A(ω) (dB)</th>
+            <th>Phase Angle, ɸ(ω) (Degree)</th>
+          </tr>
+          <tr>
+            <td>-5</td>
+            <td><input type="text" maxlength="7" name="gainOne" placeholder="Enter value ..."></td>
+            <td><input type="text" maxlength="7" name="phaseOne" placeholder="Enter value ..."></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><input type="text" maxlength="7" name="gainTwo" placeholder="Enter value ..."></td>
+            <td><input type="text" maxlength="7" name="phaseTwo" placeholder="Enter value ..."></td>
+          </tr>
+          <tr>
+            <td>1.414</td>
+            <td><input type="text" maxlength="7" name="gainThree" placeholder="Enter value ..."></td>
+            <td><input type="text" maxlength="7" name="phaseThree" placeholder="Enter value ..."></td>
+          </tr>
+          <tr>
+            <td>1.5</td>
+            <td><input type="text" maxlength="7" name="gainFour" placeholder="Enter value ..."></td>
+            <td><input type="text" maxlength="7" name="phaseFour" placeholder="Enter value ..."></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><input type="text" maxlength="7" name="gainFive" placeholder="Enter value ..."></td>
+            <td><input type="text" maxlength="7" name="phaseFive" placeholder="Enter value ..."></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><input type="text" maxlength="7" name="gainSix" placeholder="Enter value ..."></td>
+            <td><input type="text" maxlength="7" name="phaseSix" placeholder="Enter value ..."></td>
+          </tr>
+        </table>
+
+        <div class="input-block flex-column justify-around" id="input-block">
+          <button onclick="checkAnswer1();">Check Answer</button>
+        </div>
+        <div class="input-block flex-column justify-around" id="input-block">
+        <button onclick="showAnswer1();">Show Answer</button></div>
+  
+        <div class="input-block flex-column justify-around" id="input-block">
+          <div class="output" id="output1">-----------</div>
+          <button onclick="showHint1()">Hint</button>
+        </div>
+      </form>
+
+      <div class="hint-display input-block" id="hint-display1" style="display: none; text-align: center;">
+        <img src="../../image/hint1.png" width="300"><br>
+        <img src="../../image/hint1.1.png" width="300">
+      </div>
+
+      <div class="input-block" id="answer-display1" style="text-align: center; display: none; margin-top: 5px;">
+        <table>
+          <tr>
+            <th>Frequency (rad/sec)</th>
+            <th>Gain, A(ω) (dB)</th>
+            <th>Phase Angle, ɸ(ω) (Degree)</th>
+          </tr>
+          <tr>
+            <td>-5</td>
+            <td>3.47</td>
+            <td>-131</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>1.26</td>
+            <td>-162</td>
+          </tr>
+          <tr>
+            <td>1.414</td>
+            <td>0.67</td>
+            <td>-180</td>
+          </tr>
+          <tr>
+            <td>1.5</td>
+            <td>0.59</td>
+            <td>-183</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>0.31</td>
+            <td>-198</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>0.004</td>
+            <td>-235</td>
+          </tr>
+        </table><br>
+        <img src="../../image/graph1.png" width="300">
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
