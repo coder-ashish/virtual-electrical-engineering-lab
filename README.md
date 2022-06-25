@@ -1,9 +1,9 @@
-## Introduction (Round 0)
+## Introduction 
 
 <b>Discipline</b> | <b>EEE/CSE</b>
 :--|:--|
 <b>Lab</b> | <b>Control Engineering Lab</b>
-<b> Experiment</b> |  <b> Welcome to the Control Engineering Lab </b>
+
 
 <h5> About the Lab (Objective) : </h5>
 
@@ -29,20 +29,15 @@ The syllabi of this lab align to the following universities in India.
 * JIS COLLEGE OF ENGINEERING
 
 
-#### Developer Details
+#### Mentor Details
 
-<b>Name of Developer</b>  | <b>T.M. ThamizhThentral</b>
+<b>Name of Mentor</b>  | <b>T.M. ThamizhThentral</b>
 :--|:--|
 <b> Institute</b>  | <b>SRM University of Science and Technology</b>
 <b> Email id</b> | <b>thamizht@srmist.edu.in</b>
 <b> Department | <b>Electrical and Electronics Engineering</b>
 
 
-#### Mentor Details
-
-<b>Mentored by | <b>
-:--|:--|
-1|T.M. Thamizh Thentral
 
 #### Contributors List
 
@@ -58,3 +53,17 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 8|Dr.T.M. Thamizh Thentral|Faculty|EEE|SRM IST|thamizht@srmist.edu.in|
 9|Dr.A.Geetha|Faculty|EEE|SRM IST|geethaa2@srmist.edu.in|
 10|Dr.R.Palanisamy|Faculty|EEE|SRM IST|palanisr@srmist.edu.in|
+	
+#### Experiments List
+
+Experiment No. | Experiment Name 
+:--|:--
+EXP_01 | Obtaining Transfer Function using Block Diagram Reduction Technique
+EXP_02 | Study of First and Second Order System
+EXP_03 | Generation of Transfer Function for a given Electric Network
+EXP_04 | Determination of Time Domain Specifications
+EXP_05 | Stability Analysis of a given system Using Root Locus
+EXP_06 | Stability Analysis of a given system Using Bode Plot
+EXP_07 | Stability Analysis of a given system Using Polar Plot
+EXP_08 | Design of PID Controller for First and Second order System
+EXP_09 | Speed Control of AC servo Motor
