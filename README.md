@@ -1,35 +1,36 @@
-## Introduction 
-
+<h1 align="center">
+	PALS Virtual EEE Lab </h1>
+	
 <b>Discipline</b> | <b>EEE/CSE</b>
 :--|:--|
 <b>Lab</b> | <b>Control Engineering Lab</b>
 
 
-<h5> About the Lab (Objective) : </h5>
+<h3> About the Lab (Objective) : </h3>
 
 To acquire practical learning experiences in the field of Control Engineering by visualizations in digital platform.
 
 <h5> About the Experiment : </h5>
 In this experiment the overall transfer function of the complicated system can be obtained. The block diagram given for the system may be connected in parallel and cascade. In between the blocks there may be summing point or branch point. The summing points add or subtract the two and more than two signals. The signal from the blocks goes concurrently to other blocks through branch points or summing points. The main elements of the block diagram are blocks, summing point and branch point or take off point. In the block diagram approach all system variables are linked to each other through functional blocks. The transfer functions of each component are represented in the blocks. All the blocks carries individual component transfer function are connected through arrow lines to indicate the direction of the flow of signals. The overall transfer function of the system can be obtained by applying block diagram reduction rules. The rules are framed in such a way that any modification done on the block diagram not affect the relations between the input and output of the each blocks.
 
-<h5> Target Audience : </h5>
+<h3> Target Audience : </h3>
 •	UG
 	B. Tech./ B.E in Electrical and Electronics Engineering
 	B. Tech./ B.E in Electronics and Communications
 •	PG
 	MS/Ph. D. Beginners in Control Engineering and related topics
 
-<h5> Course Alignment : </h5>
+<h3> Course Alignment : </h3>
 The syllabi of this lab align to the following universities in India.
 
-<h5> Universities Mapped : </h5>
+<h3> Universities Mapped : </h3>
 
 * VIT UNIVERSITY
 * MAHAVEER INSTITUTE OF SCIENCE & TECHNOLOGY
 * JIS COLLEGE OF ENGINEERING
 
 
-#### Mentor Details
+<h2> Mentor Details </h2>
 
 <b>Name of Mentor</b>  | <b>T.M. ThamizhThentral</b>
 :--|:--|
@@ -39,7 +40,7 @@ The syllabi of this lab align to the following universities in India.
 
 
 
-#### Contributors List
+<h2> Contributors List </h2>
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
@@ -54,7 +55,7 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 9|Dr.A.Geetha|Faculty|EEE|SRM IST|geethaa2@srmist.edu.in|
 10|Dr.R.Palanisamy|Faculty|EEE|SRM IST|palanisr@srmist.edu.in|
 	
-#### Experiments List
+<h2> Experiments List </h2>
 
 Experiment No. | Experiment Name 
 :--|:--
